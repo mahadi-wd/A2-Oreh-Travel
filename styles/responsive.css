@@ -1,12 +1,14 @@
 @media screen and (max-width:600px) {
-    .banner-form, .popular {
+    .banner-form, .popular, 
+    .dastination-img-row {
         flex-direction: column;
        
         
     }
-    .popular, .popular-img img {
+    .popular, .popular-img img,
+    .dastination-img-row img{
         max-width: 100%;
-      margin: auto;
+       margin: auto;
     }
     .banner{
       
