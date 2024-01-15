@@ -1,0 +1,17 @@
+@media screen and (max-width:600px) {
+    .banner-form {
+        flex-direction: column;
+        width: 80%;
+        
+    }
+    .banner{
+      
+        padding: 20px ;
+    }
+   .btn-white, .btn-prim{
+    margin-top: 10px;
+   }
+    header{
+        max-width: 100%;
+    }
+}

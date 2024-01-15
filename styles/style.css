@@ -10,6 +10,9 @@ body{
     font-family: 'Mulish', sans-serif;
 
 }
+.hide{
+    display: none;
+}
 
 /* common shared styles */
 
@@ -75,4 +78,64 @@ nav{
 .nav-bar a:hover{
     color: #FF5400;
     font-weight: 500;
+}
+
+/* banner section styles */
+
+.banner{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.404), rgba(0, 0, 0, 0.404)), url("/B9A2-Hero-Travel/Images/Group\ 13\ \(1\)\ \(1\).png") ;
+    background-position:  center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    text-align: center;
+    padding: 50px 0px ;
+    
+
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: 800;
+    color: #fff;
+
+}
+.banner-description{
+    font-size: 1rem ;
+    font-weight: 400;
+    color: white;
+    line-height: 1.6rem;
+    max-width: 700px;
+    margin: -40px auto 0;
+}
+.banner-form{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    max-width: 800px;
+    margin: 50px auto 30px;
+    padding: 20px ;
+    justify-content: space-around;
+    display: flex;
+}
+.btn-white{
+    background: white;
+    padding: 10px 30px ;
+    text-align: center;
+    border-radius: 5px;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 1rem;
+    font-weight: 400;
+    border: none;
+}
+.btn-white i{
+    margin-left: 30px;
+}
+.btn-prim{
+    padding: 10px 30px ;
+    text-align: center;
+    border-radius: 5px;
+    color:white;
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
+    background: #FF5400;
+
 }
