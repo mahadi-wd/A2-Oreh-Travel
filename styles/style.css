@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&display=swap');
+
+*{
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Mulish', sans-serif;
+
+}
+
+/* common shared styles */
+
+.section-title{
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #131318;
+}
+.text-light-gray{
+    font-size: 1rem ;
+    font-weight: 400;
+    color: #5A5A5D;
+    line-height: 1.6rem;
+}
+.btn-primary{
+
+}
+
+/* header styles 
+
+/* nav section styles */
+header{
+    width: 1100px;
+    margin: 0 auto;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.logo{
+    display: flex;
+    align-items: center
+    
+}
+.nav-title{
+    color:  #131318;
+    font-size: 2.3rem;
+    font-weight: 800;
+    margin-left: 20px;
+
+}
+.travel-color{
+    color: #FF5400;
+}
+
+.nav-bar ul{
+    display: flex;
+    gap: 20px;
+}
+.nav-bar a{
+    color: #424247;
+    font-size: 1.1rem;
+    font-weight: 400;
+    padding: 10px 20px;
+}
+.nav-bar .active{
+    color: #FF5400;!important
+
+}
+.nav-bar a:hover{
+    color: #FF5400;
+    font-weight: 500;
+}
