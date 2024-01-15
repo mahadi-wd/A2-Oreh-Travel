@@ -1,17 +1,22 @@
 @media screen and (max-width:600px) {
-    .banner-form {
+    .banner-form, .popular {
         flex-direction: column;
-        width: 80%;
+       
         
+    }
+    .popular, .popular-img img {
+        max-width: 100%;
+      margin: auto;
     }
     .banner{
       
-        padding: 20px ;
+       
     }
    .btn-white, .btn-prim{
     margin-top: 10px;
    }
-    header{
+    header, main{
         max-width: 100%;
+        padding: 20px;
     }
 }
