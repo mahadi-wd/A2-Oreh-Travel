@@ -195,6 +195,9 @@ main{
     font-weight: 800;
 
 }
+.dastination-img-row .img-item{
+    
+}
 
 .maldives{
   position:relative;
@@ -258,5 +261,50 @@ main{
     position: relative;
     top: 100px;
     left: 100px;
+
+}
+
+/* why us section styles */
+.why-us{}
+.why-us > .section-title, .description-center{
+    text-align: center;
+}
+.why-us .service-items {
+    display: flex;
+    gap: 40px ;
+    margin-top: 50px;
+
+}
+.why-us img{
+    width: 50px;
+
+}
+.service-title{
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #131318;
+}
+.service-item1{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 20px;
+
+}
+.service-item2{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 20px;
+
+}
+.service-item3{
+    width: 50%;
+    margin: auto;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding: 20px;
+    margin-top: 40px;
 
 }

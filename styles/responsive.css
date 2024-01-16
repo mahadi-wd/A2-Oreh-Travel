@@ -1,12 +1,14 @@
 @media screen and (max-width:600px) {
     .banner-form, .popular, 
-    .dastination-img-row {
+    .dastination-img-row, 
+    .service-items {
         flex-direction: column;
        
         
     }
     .popular, .popular-img img,
-    .dastination-img-row img{
+    .dastination-img-row img
+    {
         max-width: 100%;
        margin: auto;
     }
@@ -20,5 +22,10 @@
     header, main{
         max-width: 100%;
         padding: 20px;
+    }
+    .service-item3{
+        width: 100%;
+        /* margin-top: 20px; */
+
     }
 }
